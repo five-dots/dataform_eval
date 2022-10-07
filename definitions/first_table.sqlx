@@ -1,0 +1,8 @@
+config {
+    type: "table"
+}
+
+select
+  val * 10 as val10,
+from
+  ${ref('first_source')}
