@@ -3,6 +3,6 @@ config {
 }
 
 select
-  val * 10 as val10,
+  val * 100 as val100,
 from
   ${ref('first_source')}
